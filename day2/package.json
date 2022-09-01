@@ -1,0 +1,31 @@
+{
+  "name": "jest-dom-testing-library",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "babel": {
+    "env": {
+      "test": {
+        "plugins": [
+          "@babel/plugin-transform-modules-commonjs"
+        ]
+      }
+    }
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.16.8",
+    "@testing-library/dom": "^8.11.3",
+    "@testing-library/user-event": "^13.5.0",
+    "jest": "^27.4.7"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  }
+}

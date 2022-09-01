@@ -1,0 +1,7 @@
+{
+  "tasks": [
+    { "id": 1, "text": "Tarea 1" },
+    { "id": 2, "text": "Tarea 2" },
+    { "id": 3, "text": "Tarea 3" }
+  ]
+}
